@@ -2,14 +2,14 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-crowdfunding = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+crowdfunding = "8H7wt8CR8ifx7PDVikrUZALGH1NZKKFXkc29FM3zmeNS"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
-wallet = "/Users/salihpoovathingalhussainar/.config/solana/id.json"
+cluster = "devnet"
+wallet = "./id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
